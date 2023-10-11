@@ -1,0 +1,53 @@
+.btn-group .button {
+    background-color: #4CAF50; 
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:flexbox;
+    font-size: 16px;
+    cursor: pointer;
+    float: center;
+  }
+
+  .btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button:hover {
+    background-color: #3e8e41;
+  }
+
+  .btn-group {
+    margin-bottom: 50 ;
+    margin-top: 50px;
+    align-content: center;
+  }
+
+  .btn-group > a {
+    width: 30%;
+  }
+ /*  .item5 {
+    grid-area: 1/2/1/1; 
+    align-items: right;
+ }
+
+ 
+ .item6 {
+   grid-area: 1/4/2/4;
+ } */
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
